@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unleash Your Online Potential with data-driven SEO solutions. Stop guessing. Start growing.">
+    <meta name="keywords" content="SEO, Analytics, Conversion Rate Optimization, Business Growth">
+    <meta name="author" content="SEO Growth Platform">
+    <title>Unleash Your Online Potential - Data-Driven SEO Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .transition-all {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+    <!-- Header Navigation -->
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="#" class="text-2xl font-bold gradient-text">SEO Growth</a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-gray-900 transition-colors duration-300 font-medium">Features</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-gray-900 transition-colors duration-300 font-medium">Benefits</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-gray-900 transition-colors duration-300 font-medium">Testimonials</a>
+                    <a href="#faq" class="text-gray-700 hover:text-gray-900 transition-colors duration-300 font-medium">FAQ</a>
+                    <a href="https://test.com" class="bg-gray-900 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-all duration-300 hover:scale-105 font-medium">Get Started</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden mobile-menu-button p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-xl text-gray-900"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden pb-4 border-t border-gray-200">
+                <a href="#features" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-300 font-medium">Features</a>
+                <a href="#benefits" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-300 font-medium">Benefits</a>
+                <a href="#testimonials" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-300 font-medium">Testimonials</a>
+                <a href="#faq" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-300 font-medium">FAQ</a>
+                <a href="https://test.com" class="block mt-4 bg-gray-900 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition-all duration-300 font-medium text-center">Get Started</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6 text-gray-900">
+                        Unleash Your Online Potential
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-600 leading-relaxed mb-8 font-light">
+                        Stop guessing. Start growing. Our data-driven SEO platform delivers measurable results through advanced analytics, competitive intelligence, and proven conversion optimization strategies. Transform your digital presence into a revenue-generating machine.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://test.com" class="bg-gray-900 text-white px-8 py-4 rounded-lg hover:bg-gray-800 transition-all duration-300 hover:scale-105 font-semibold text-center shadow-md hover:shadow-lg">
+                            Start Your Free Trial
+                        </a>
+                        <button class="border-2 border-gray-900 text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-900 hover:text-white transition-all duration-300 font-semibold">
+                            Watch Demo
+                        </button>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-6 font-light">
+                        <i class="fas fa-check-circle text-green-600 mr-2"></i>No credit card required • 14-day free trial • Cancel anytime
+                    </p>
+                </div>
+                <div class="hidden lg:block">
+                    <div class="bg-gradient-to-br from-gray-200 to-gray-300 rounded-xl shadow-2xl h-96 flex items-center justify-center">
+                        <div class="text-center">
+                            <i class="fas fa-chart-line text-6xl text-gray-600 mb-4"></i>
+                            <p class="text-gray-600 font-semibold">Dashboard Preview</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+                    Powerful Features Built for Results
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto font-light">
+                    Everything you need to dominate search rankings and drive qualified traffic to your website
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1: Advanced Analytics -->
+                <div class="card-hover bg-white border border-gray-200 rounded-xl p-8 shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-14 h-14 bg-gray-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-chart-bar text-2xl text-gray-900"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Advanced Analytics Reporting</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed font-light">
+                        Gain deep insights into your website's performance with comprehensive analytics dashboards. Track keyword rankings, organic traffic, click-through rates, and user behavior patterns in real-time. Our intuitive reporting tools transform complex data into actionable intelligence.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Real-time data updates</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Custom report generation</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Historical trend analysis</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Automated alerts & notifications</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: Competitor Analysis -->
+                <div class="card-hover bg-white border border-gray-200 rounded-xl p-8 shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-14 h-14 bg-gray-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-crosshairs text-2xl text-gray-900"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Competitor Analysis</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed font-light">
+                        Stay ahead of the competition with detailed competitor intelligence. Analyze their keywords, backlinks, content strategies, and ranking positions. Identify market opportunities and gaps that your competitors are missing to capture market share faster.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Keyword gap analysis</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Backlink comparison</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Content performance tracking</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Rank position monitoring</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Conversion Optimization -->
+                <div class="card-hover bg-white border border-gray-200 rounded-xl p-8 shadow-sm hover:shadow-xl transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-14 h-14 bg-gray-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-bolt text-2xl text-gray-900"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Conversion Rate Optimization</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed font-light">
+                        Maximize the value of your traffic with data-driven conversion optimization. Test landing pages, optimize user flows, and implement best practices to turn visitors into customers. Increase revenue without increasing your advertising spend.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>A/B testing framework</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Heatmap analysis</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>User session recordings</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-600 mr-3"></i>Funnel optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+                    Why Choose Our Platform
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto font-light">
+                    Experience the transformative power of data-driven decision making
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Benefit 1: Measurable ROI -->
+                <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-dollar-sign text-3xl text-gray-900"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Measurable ROI</h3>
+                    <p class="text-gray-600 leading-relaxed font-light mb-4">
+                        Track every dollar invested in your SEO strategy. Our clients see an average 300% ROI within the first 6 months. Transparent attribution means you always know exactly what's driving revenue and can confidently allocate budget to what works.
+                    </p>
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                        <p class="text-sm font-semibold text-green-900">Average client improvement: <span class="text-lg">+247%</span> organic revenue</p>
+                    </div>
+                </div>
+
+                <!-- Benefit 2: Informed Decisions -->
+                <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-brain text-3xl text-gray-900"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Informed Business Decisions</h3>
+                    <p class="text-gray-600 leading-relaxed font-light mb-4">
+                        Replace guesswork with data-driven insights. Our AI-powered recommendations analyze millions of data points to guide your strategy. Make confident decisions backed by proven patterns and predictive analytics that anticipate market trends.
+                    </p>
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                        <p class="text-sm font-semibold text-blue-900">Powered by AI • Real-time insights • Predictive analytics</p>
+                    </div>
+                </div>
+
+                <!-- Benefit 3: Long-Term Growth -->
+                <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-rocket text-3xl text-gray-900"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Long-Term Growth</h3>
+                    <p class="text-gray-600 leading-relaxed font-light mb-4">
+                        Build sustainable competitive advantages through ethical SEO practices. Our white-hat strategies create compounding growth that accelerates over time. Unlike paid ads, your organic traffic continues generating value long after implementation.
+                    </p>
+                    <div class="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                        <p class="text-sm font-semibold text-purple-900">Sustainable • Scalable • Compound growth</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+                    About Our Company
+                </h2>
+                <div class="w-16 h-1 bg-gray-900 mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="space-y-6">
+                <p class="text-lg text-gray-600 leading-relaxed font-light">
+                    Founded in 2015 by a team of SEO specialists and data scientists, our company emerged from a simple observation: businesses were wasting millions on ineffective marketing strategies. We recognized that the most successful companies made decisions based on data, not intuition. Our founding team spent years perfecting algorithms and building tools that could transform raw data into actionable intelligence. Today, we're proud to serve over 5,000 clients across 50+ countries, helping them achieve sustainable growth through data-driven SEO strategies. What started as a small startup in San Francisco has evolved into a global platform trusted by Fortune 500 companies and ambitious startups alike.
+                </p>
+                <p class="text-lg text-gray-600 leading-relaxed font-light">
+                    Our mission is simple yet powerful: to democratize access to enterprise-grade SEO intelligence. We believe that every business, regardless of size or budget, deserves the tools and insights needed to succeed online. We're committed to transparency, continuous innovation, and customer success. Our core values—integrity, excellence, and empowerment—guide every decision we make. We invest heavily in research and development to stay ahead of algorithm changes and market trends. By partnering with us, you're not just getting a software platform; you're gaining a dedicated partner invested in your long-term success and committed to helping you achieve your most ambitious growth goals.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+                    Trusted by Industry Leaders
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto font-light">
+                    See how businesses like yours are using our platform to drive growth
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6 font-light">
+                        "This platform completely transformed how we approach SEO. Within 3 months, our organic traffic increased by 187%, and we're now generating $50K+ in monthly revenue from search alone. The analytics dashboard is incredibly intuitive, and the competitor insights helped us identify untapped keyword opportunities worth thousands in potential revenue."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-semibold text-gray-900">Sarah Mitchell</p>
+                        <p class="text-sm text-gray-600">CEO, Digital Commerce Solutions</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6 font-light">
+                        "The conversion rate optimization tools alone have paid for our subscription 10x over. We improved our landing page conversion rates by 42% using the A/B testing framework and heatmap analysis. The support team is exceptional and genuinely invested in our success. Highly recommend to any business serious about growth."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-semibold text-gray-900">James Chen</p>
+                        <p class="text-sm text-gray-600">Marketing Director, TechStart Inc.</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6 font-light">
+                        "We were struggling to compete with larger players in our market. This platform gave us the insights we needed to dominate long-tail keywords and build authority in our niche. Our organic revenue went from $5K to $35K monthly in just 8 months. The ROI tracking is phenomenal—we know exactly which keywords are driving revenue."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-semibold text-gray-900">Emma Rodriguez</p>
+                        <p class="text-sm text-gray-600">Founder, GreenLeaf Marketing Agency</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6 font-light">
+                        "The competitor analysis feature is a game-changer. We discovered that our competitors were ranking for 200+ keywords we weren't targeting. After implementing the recommendations, we now rank for 500+ keywords and our market share has increased significantly. Best investment our team has made."
+                    </p>
+                    <div class="border-t border-gray-200 pt-4">
+                        <p class="font-semibold text-gray-900">Michael Zhang</p>
+                        <p class="text-sm text-gray-600">VP of Growth, RetailMax Corp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop'); opacity: 0.1;"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-gray-900 to-gray-800 opacity-90"></div>
+        
+        <div class="max-w-4xl mx-auto relative z-10 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-white">
+                Ready to Transform Your Business?
+            </h2>
+            <p class="text-xl text-gray-200 mb-8 leading-relaxed font-light">
+                Join thousands of successful businesses already using our platform to drive sustainable growth. Get started with a free 14-day trial—no credit card required.
+            </p>
+            <a href="https://test.com" class="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 font-semibold shadow-lg hover:shadow-xl">
+                Start Your Free Trial Today
+            </a>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-lg text-gray-600 font-light">
+                    Everything you need to know about our platform
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer bg-white">
+                        <span class="text-lg font-semibold text-gray-900 text-left">How quickly will I see results from SEO?</span>
+                        <i class="faq-icon fas fa-chevron-down text-gray-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 py-4 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed font-light">
+                            Most clients see initial improvements within 4-8 weeks, with significant gains appearing within 3-6 months. The timeline depends on your industry competitiveness, current SEO foundation, and the scope of optimizations. Our platform provides real-time tracking so you can monitor progress daily. Quick wins often include improved rankings for long-tail keywords and increased organic impressions within the first month. More competitive markets may require 6-12 months to see substantial traffic increases, but the compound growth continues accelerating over time.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer bg-white">
+                        <span class="text-lg font-semibold text-gray-900 text-left">What's included in your analytics reporting?</span>
+                        <i class="faq-icon fas fa-chevron-down text-gray-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 py-4 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed font-light">
+                            Our comprehensive analytics include keyword rankings, organic traffic trends, click-through rates, conversion tracking, backlink analysis, competitor benchmarking, and user behavior insights. You get real-time dashboards with customizable metrics, automated reports sent to your inbox, historical data comparisons, and predictive analytics. The platform integrates with Google Analytics and Search Console for seamless data synchronization. You can create unlimited custom reports, set up automated alerts for ranking changes, and access detailed attribution models showing exactly which keywords drive conversions and revenue.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer bg-white">
+                        <span class="text-lg font-semibold text-gray-900 text-left">Is your SEO approach white-hat and compliant?</span>
+                        <i class="faq-icon fas fa-chevron-down text-gray-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 py-4 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed font-light">
+                            Absolutely. We exclusively use white-hat SEO techniques that comply with Google's Webmaster Guidelines. Our strategies focus on creating valuable content, earning natural backlinks, improving user experience, and building genuine authority. We never engage in keyword stuffing, cloaking, private link networks, or any manipulative tactics. Our recommendations are based on proven best practices and algorithm analysis. We're transparent about our methods and can provide detailed explanations of every recommendation. Our approach prioritizes long-term sustainable growth over quick fixes that could result in penalties.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer bg-white">
+                        <span class="text-lg font-semibold text-gray-900 text-left">Can I track ROI directly from organic traffic?</span>
+                        <i class="faq-icon fas fa-chevron-down text-gray-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 py-4 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed font-light">
+                            Yes, our platform provides detailed ROI tracking for organic traffic. You can connect your e-commerce platform, CRM, or analytics system to track revenue generated from specific keywords and landing pages. Our attribution modeling shows the customer journey from first organic click to conversion, accounting for multi-touch interactions. You'll see metrics like cost per acquisition, lifetime customer value, and return on investment for your SEO efforts. Automated reporting calculates your exact ROI monthly, and you can segment data by traffic source, keyword, landing page, or any custom dimension to understand which SEO efforts drive the most valuable customers.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 cursor-pointer bg-white">
+                        <span class="text-lg font-semibold text-gray-900 text-left">What support and training do you provide?</span>
+                        <i class="faq-icon fas fa-chevron-down text-gray-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer hidden px-6 py-4 bg-gray-50 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed font-light">
+                            We offer comprehensive support including 24/7 customer service via chat, email, and phone. All plans include onboarding training, video tutorials, detailed documentation, and a knowledge base with hundreds of articles. Premium plans include dedicated account managers, quarterly strategy calls, and personalized training sessions. We host weekly webinars covering advanced features and SEO best practices. Our community forum connects you with other users for peer support. Additionally, we provide custom integration support, API documentation, and white-label options for agencies. Your success is our priority, and we're committed to ensuring you get maximum value from our platform.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-100">
+        <div class="max-w-2xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-4 text-gray-900">Stay Updated</h3>
+            <p class="text-gray-600 mb-8 font-light">
+                Get the latest SEO insights, platform updates, and growth strategies delivered to your inbox
+            </p>
+            <form class="flex flex-col sm:flex-row gap-3">
+                <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-900 transition-all duration-300" required>
+                <button type="submit" class="bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-all duration-300 hover:scale-105 font-semibold">
+                    Subscribe
+                </button>
+            </form>
+            <p class="text-sm text-gray-600 mt-4 font-light">
+                We respect your privacy. Unsubscribe at any time.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">SEO Growth</h4>
+                    <p class="text-sm font-light leading-relaxed mb-4">
+                        Empowering businesses with data-driven SEO solutions for sustainable growth and measurable results.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Product</h4>
+                    <ul class="space-y-2 text-sm font-light">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="https://test.com" class="text-gray-400 hover:text-white transition-colors duration-300">Pricing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Security</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Roadmap</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm font-light">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Press</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm font-light">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">GDPR</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-800 mb-8"></div>
+
+            <!-- Bottom Footer -->
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm text-gray-400 font-light mb-4 md:mb-0">
+                    &copy; 2025 SEO Growth. All rights reserved.
+                </p>
+                <p class="text-sm text-gray-400 font-light">
+                    Contact: <a href="mailto:test@test.com" class="text-gray-300 hover:text-white transition-colors duration-300">test@test.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
